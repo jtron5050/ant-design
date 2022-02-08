@@ -1,1 +1,50 @@
+
+// Custom Theming for NG-ZORRO
+// For more information: https://ng.ant.design/docs/customize-theme/en
+
+// Import the official default less style file
+//@import "~ng-zorro-antd/ng-zorro-antd.less";
+
+// Import the official dark less style file
+@import "~ng-zorro-antd/ng-zorro-antd.dark.less";
+
+// Import the official compact less style file
+//@import "~ng-zorro-antd/ng-zorro-antd.compact.less";
+
+// Import the official Aliyun less style file
+//@import "~ng-zorro-antd/ng-zorro-antd.aliyun.less";
+
+// Override less variables to here
+// View all variables: https://github.com/NG-ZORRO/ng-zorro-antd/blob/master/components/style/themes/default.less
+
+// @primary-color: #1890ff;
 /* You can add global styles to this file, and also import other style files */
+
+//@body-background: #121212;
+//@component-background: rgba(255,255,255, 0.07);
+@primary-color: #E04E39;
+@padding-md: 10px;
+
+
+//layout
+@layout-body-background: #121212;
+@layout-header-background: rgba(255,255,255, .07);
+//@layout-header-height: 48px;
+//@layout-header-padding: 8px 50px;
+@layout-header-color: @text-color;
+@layout-footer-padding: 24px 50px;
+@layout-footer-background: @layout-body-background;
+@layout-sider-background: @layout-header-background;
+@layout-trigger-height: 48px;
+@layout-trigger-background: @layout-header-background;
+@layout-trigger-color: @text-color;
+@layout-zero-trigger-width: 36px;
+@layout-zero-trigger-height: 42px;
+
+
+//menu
+//@menu-collapsed-width: 64px;
+
+.vertical ant-progress {
+    transform: rotate(90deg);
+}
